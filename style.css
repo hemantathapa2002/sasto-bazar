@@ -546,3 +546,62 @@ footer{
     color: aliceblue;
     cursor: pointer;
 }
+
+
+/*media*/
+
+@media (max-width:820px) {
+    h2{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    #header {
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        padding: 20px 20px;
+        background-color: azure;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+    #hero {
+        background-image: url(./background/pngegg\ 1.svg);
+        height: 35vh;
+        width: 100%;
+        background-size: 850px;
+        background-repeat: no-repeat;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: start;
+    }
+    .section-p1 {
+        padding: 40px 20px;
+    }
+    #feature .feat-box {
+        width: 180px;
+        height: 190px;
+        text-align: center;
+        padding: 35px 25px;
+        box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.06);
+        border: 1px solid rgb(28, 157, 213);
+        border-radius: 5px;
+        margin: 15px 0;
+    }
+    #feat-product .pro-container .pro {
+        width: 23%;
+        min-width: 235px;
+        padding: 10px 12px;
+        border: 1px solid rgb(184, 188, 191);
+        cursor: pointer;
+        box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+        margin: 15px 0;
+        transition: 0.2s ease;
+        border-radius: 25px;
+    }
+}
