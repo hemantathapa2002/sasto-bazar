@@ -388,6 +388,10 @@ footer{
 #loco #infotext span{
     margin: 25px;
 }
+iframe{
+    height: 400px;
+    width: 500px;
+}
 
 /*cart page*/
 
@@ -551,6 +555,7 @@ footer{
 /*media*/
 
 @media (max-width:820px) {
+    /*Home*/
     h2{
         font-size: 30px;
     }
@@ -603,5 +608,32 @@ footer{
         margin: 15px 0;
         transition: 0.2s ease;
         border-radius: 25px;
+    }
+    #navbar li input {
+        height: 30px;
+        width: 95px;
+        border-width: 2px;
+        border-color: rgb(28, 157, 213);
+        border-radius: 20px;
+        padding-left: 20px;
+    }
+    #prodetails .single-pro-image img {
+        width: 300px
+        
+    }
+    #prodetails .single-pro-image {
+        background-color: gainsboro;
+        padding: 5px;
+        box-shadow: 0px 15px 20px 20px rgba(0, 0, 0, 0.06);
+        height: 310px;
+    }
+    p {
+        font-size: 16px;
+        margin: 15px 0 20px 0;
+        padding: 20px;
+    }
+    iframe {
+        height: 385px;
+        width: 420px;
     }
 }
